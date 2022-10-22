@@ -11,8 +11,13 @@ public class task_1_22_10_2022 {
         }
         for (int i = 0; i < firstArray.length; i++) {
             System.out.println(firstArray[i]);
-
         }
+        Scanner secondScanner=new Scanner(System.in);
+        System.out.println("Введиет первого размера массива");
+        int[] secondArray=new int[secondScanner.nextInt()];
 
+        for (int i = 0; i <secondArray.length ; i++) {
+            secondArray[i]= secondScanner.nextInt();
+        }
     }
 }
