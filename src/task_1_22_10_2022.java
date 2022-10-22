@@ -9,7 +9,10 @@ public class task_1_22_10_2022 {
         for (int i = 0; i <firstArray.length ; i++) {
             firstArray[i]= firstScanner.nextInt();
         }
-        System.out.println("htfjt");
+        for (int i = 0; i < firstArray.length; i++) {
+            System.out.println(firstArray[i]);
+
+        }
 
     }
 }
